@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#22aaa0">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="登录"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="用户名"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/username_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入用户名"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="密码"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/psw_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入登录密码"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#22aaa2"
+            android:padding="12dp"
+            android:text="登录"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/toapi_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="设置服务器地址>>>"
+            android:textSize="16sp"
+            android:gravity="right"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
